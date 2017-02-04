@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81BEC0751E45952A00FA4AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEC0741E45952A00FA4AEA /* AppDelegate.swift */; };
+		81BEC0771E45952A00FA4AEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEC0761E45952A00FA4AEA /* ViewController.swift */; };
+		81BEC07A1E45952A00FA4AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BEC0781E45952A00FA4AEA /* Main.storyboard */; };
+		81BEC07C1E45952A00FA4AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BEC07B1E45952A00FA4AEA /* Assets.xcassets */; };
+		81BEC07F1E45952A00FA4AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BEC07D1E45952A00FA4AEA /* LaunchScreen.storyboard */; };
+		81BEC08A1E45952B00FA4AEA /* Bip_the_GuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEC0891E45952B00FA4AEA /* Bip_the_GuyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81BEC0861E45952B00FA4AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BEC0691E45952A00FA4AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BEC0701E45952A00FA4AEA;
+			remoteInfo = "Bip the Guy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81BEC0711E45952A00FA4AEA /* Bip the Guy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bip the Guy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BEC0741E45952A00FA4AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81BEC0761E45952A00FA4AEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81BEC0791E45952A00FA4AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81BEC07B1E45952A00FA4AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81BEC07E1E45952A00FA4AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81BEC0801E45952A00FA4AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BEC0851E45952B00FA4AEA /* Bip the GuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bip the GuyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BEC0891E45952B00FA4AEA /* Bip_the_GuyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bip_the_GuyTests.swift; sourceTree = "<group>"; };
+		81BEC08B1E45952B00FA4AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BEC06E1E45952A00FA4AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEC0821E45952B00FA4AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81BEC0681E45952A00FA4AEA = {
+			isa = PBXGroup;
+			children = (
+				81BEC0731E45952A00FA4AEA /* Bip the Guy */,
+				81BEC0881E45952B00FA4AEA /* Bip the GuyTests */,
+				81BEC0721E45952A00FA4AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BEC0721E45952A00FA4AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BEC0711E45952A00FA4AEA /* Bip the Guy.app */,
+				81BEC0851E45952B00FA4AEA /* Bip the GuyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BEC0731E45952A00FA4AEA /* Bip the Guy */ = {
+			isa = PBXGroup;
+			children = (
+				81BEC0741E45952A00FA4AEA /* AppDelegate.swift */,
+				81BEC0761E45952A00FA4AEA /* ViewController.swift */,
+				81BEC0781E45952A00FA4AEA /* Main.storyboard */,
+				81BEC07B1E45952A00FA4AEA /* Assets.xcassets */,
+				81BEC07D1E45952A00FA4AEA /* LaunchScreen.storyboard */,
+				81BEC0801E45952A00FA4AEA /* Info.plist */,
+			);
+			path = "Bip the Guy";
+			sourceTree = "<group>";
+		};
+		81BEC0881E45952B00FA4AEA /* Bip the GuyTests */ = {
+			isa = PBXGroup;
+			children = (
+				81BEC0891E45952B00FA4AEA /* Bip_the_GuyTests.swift */,
+				81BEC08B1E45952B00FA4AEA /* Info.plist */,
+			);
+			path = "Bip the GuyTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BEC0701E45952A00FA4AEA /* Bip the Guy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BEC08E1E45952B00FA4AEA /* Build configuration list for PBXNativeTarget "Bip the Guy" */;
+			buildPhases = (
+				81BEC06D1E45952A00FA4AEA /* Sources */,
+				81BEC06E1E45952A00FA4AEA /* Frameworks */,
+				81BEC06F1E45952A00FA4AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bip the Guy";
+			productName = "Bip the Guy";
+			productReference = 81BEC0711E45952A00FA4AEA /* Bip the Guy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81BEC0841E45952B00FA4AEA /* Bip the GuyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BEC0911E45952B00FA4AEA /* Build configuration list for PBXNativeTarget "Bip the GuyTests" */;
+			buildPhases = (
+				81BEC0811E45952B00FA4AEA /* Sources */,
+				81BEC0821E45952B00FA4AEA /* Frameworks */,
+				81BEC0831E45952B00FA4AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BEC0871E45952B00FA4AEA /* PBXTargetDependency */,
+			);
+			name = "Bip the GuyTests";
+			productName = "Bip the GuyTests";
+			productReference = 81BEC0851E45952B00FA4AEA /* Bip the GuyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BEC0691E45952A00FA4AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Patrick Calabrese";
+				TargetAttributes = {
+					81BEC0701E45952A00FA4AEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9XYBW6TC7K;
+						ProvisioningStyle = Automatic;
+					};
+					81BEC0841E45952B00FA4AEA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9XYBW6TC7K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81BEC0701E45952A00FA4AEA;
+					};
+				};
+			};
+			buildConfigurationList = 81BEC06C1E45952A00FA4AEA /* Build configuration list for PBXProject "Bip the Guy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BEC0681E45952A00FA4AEA;
+			productRefGroup = 81BEC0721E45952A00FA4AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BEC0701E45952A00FA4AEA /* Bip the Guy */,
+				81BEC0841E45952B00FA4AEA /* Bip the GuyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BEC06F1E45952A00FA4AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BEC07F1E45952A00FA4AEA /* LaunchScreen.storyboard in Resources */,
+				81BEC07C1E45952A00FA4AEA /* Assets.xcassets in Resources */,
+				81BEC07A1E45952A00FA4AEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEC0831E45952B00FA4AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BEC06D1E45952A00FA4AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BEC0771E45952A00FA4AEA /* ViewController.swift in Sources */,
+				81BEC0751E45952A00FA4AEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEC0811E45952B00FA4AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BEC08A1E45952B00FA4AEA /* Bip_the_GuyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81BEC0871E45952B00FA4AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BEC0701E45952A00FA4AEA /* Bip the Guy */;
+			targetProxy = 81BEC0861E45952B00FA4AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81BEC0781E45952A00FA4AEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BEC0791E45952A00FA4AEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81BEC07D1E45952A00FA4AEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BEC07E1E45952A00FA4AEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BEC08C1E45952B00FA4AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BEC08D1E45952B00FA4AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BEC08F1E45952B00FA4AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XYBW6TC7K;
+				INFOPLIST_FILE = "Bip the Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calabrese.Bip-the-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81BEC0901E45952B00FA4AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XYBW6TC7K;
+				INFOPLIST_FILE = "Bip the Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calabrese.Bip-the-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81BEC0921E45952B00FA4AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XYBW6TC7K;
+				INFOPLIST_FILE = "Bip the GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calabrese.Bip-the-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip the Guy.app/Bip the Guy";
+			};
+			name = Debug;
+		};
+		81BEC0931E45952B00FA4AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XYBW6TC7K;
+				INFOPLIST_FILE = "Bip the GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calabrese.Bip-the-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip the Guy.app/Bip the Guy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BEC06C1E45952A00FA4AEA /* Build configuration list for PBXProject "Bip the Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BEC08C1E45952B00FA4AEA /* Debug */,
+				81BEC08D1E45952B00FA4AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BEC08E1E45952B00FA4AEA /* Build configuration list for PBXNativeTarget "Bip the Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BEC08F1E45952B00FA4AEA /* Debug */,
+				81BEC0901E45952B00FA4AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81BEC0911E45952B00FA4AEA /* Build configuration list for PBXNativeTarget "Bip the GuyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BEC0921E45952B00FA4AEA /* Debug */,
+				81BEC0931E45952B00FA4AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BEC0691E45952A00FA4AEA /* Project object */;
+}
