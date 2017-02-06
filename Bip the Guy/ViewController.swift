@@ -67,6 +67,20 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         dismiss(animated: true, completion: nil)
     }
     
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func showAlert(title: String, message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        
+        alertController.addAction(defaultAction)
+        
+        present(alertController, animated: true, completion: nil)
+
+    }
     
     // MARK: Actions
     @IBAction func libraryPressed(_ sender: UIButton) {
@@ -80,11 +94,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBAction func cameraPressed(_ sender: UIButton) {
         
-        imagePicker.sourceType = .camera
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            imagePicker.sourceType = .camera
+            
+            imagePicker.delegate = self
+            
+            present(imagePicker, animated: true, completion: nil)
+        } else {
+            showAlert(title: "Camera Not Available!", message: "There is no camera available on this device.")
+        }
         
-        imagePicker.delegate = self
-        
-        present(imagePicker, animated: true, completion: nil)
     }
     
     @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
